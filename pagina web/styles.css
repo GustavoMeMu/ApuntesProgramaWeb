@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.nav h1{
+    position: absolute;
+    color: white;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    left: 250PX;
+    top: 7PX;
+    font-weight: 400;
+}
+.nav UL{
+    display: flex;
+    background-color: #242424;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+}
+.nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav a{
+    color: gray;
+    font-size: 17PX;
+    text-decoration: none;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+.busqueda{
+    display: flex;
+    align-items: center;
+}
+.busqueda button{
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+.icono-lupa {
+    color: gray;
+}
+.descarga button{
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 35px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.icono-descarga {
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+.news{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: gray;
+}
+.news p{
+    margin-left: 800px;
+    text-align: center;
+    color: white;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
